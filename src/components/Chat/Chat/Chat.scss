@@ -1,0 +1,15 @@
+#chat{
+  width: calc(100vw - 400px);
+  height: 100vh;
+
+  position: fixed;
+  top: 0;
+  left: 400px;
+
+  background: #E5E5FF;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}

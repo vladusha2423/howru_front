@@ -1,0 +1,9 @@
+#message-container{
+  width: 100%;
+  height: calc(100vh - 80px);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}

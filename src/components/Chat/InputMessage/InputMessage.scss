@@ -1,0 +1,29 @@
+#input-message{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  width: calc(100% - 20px);
+  height: 80px;
+  background: white;
+  padding-left: 20px;
+
+  -webkit-box-shadow: 0px 0px 12px 0px rgba(50, 50, 50, 0.3);
+  -moz-box-shadow:    0px 0px 12px 0px rgba(50, 50, 50, 0.3);
+  box-shadow:         0px 0px 12px 0px rgba(50, 50, 50, 0.3);
+
+  input{
+    width: 80%;
+    background: none;
+    border: 0;
+    border-bottom: 1px solid #ddd;
+    color: black;
+    /* padding-bottom: 5px; */
+    height: 30px;
+    font-size: 17px;
+  }
+  .send-icon{
+    margin-left: 10px;
+  }
+}

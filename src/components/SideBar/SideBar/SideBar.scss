@@ -1,0 +1,17 @@
+#sidebar{
+  width: 400px;
+  height: 100vh;
+
+  background: #251C45;
+  padding-top: 30px;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}

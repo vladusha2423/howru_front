@@ -1,0 +1,20 @@
+#input-person{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  margin-top: 20px;
+
+  input{
+    width: 80%;
+    background: none;
+    border: 0;
+    border-bottom: 2px solid #8f94a8;
+    color: #ccc;
+    /* padding-bottom: 5px; */
+    height: 30px;
+    font-size: 17px;
+  }
+}

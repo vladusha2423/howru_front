@@ -1,0 +1,12 @@
+#friend-list{
+  width: 100%;
+  height: calc(100vh - 200px);
+
+  overflow: hidden;
+  overflow-y: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
